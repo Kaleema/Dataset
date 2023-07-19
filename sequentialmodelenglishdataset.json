@@ -1,0 +1,1227 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hello how are you ?",
+                "How are you?",
+                "Is anyone there?",
+                "Good morning",
+                "Good evening",
+                "See you",
+                "Good to chat with you, goodbye",
+                "Bye",
+                "See you next time",
+                "Farewell !",
+                "See you soon!",
+                "Bye",
+                "THANKS",
+                "Thanks very much",
+                "It's useful",
+                "Great, thank you",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "Hello, I'm fine. How can I help you ?",
+                "I'm doing well. Nice to talk with you",
+                "Hello, how can I help you ?",
+                "Good morning, how can I help you ?",
+                "Good evening, how can I help you?",
+                "See you soon!",
+                "Bye ! Come back soon",
+                "See you",
+                "Bye ! Come back soon",
+                "Bye ! Come back soon",
+                "Bye ! Come back soon",
+                "Have a great day",
+                "THANKS",
+                "THANKS",
+                "Glad to have helped you!",
+                "Come back anytime!",
+                " It was a pleasure!"
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [
+                NaN,
+                NaN,
+                NaN
+            ],
+            "responses": [
+                "Give me more information",
+                "I'm not sure I can understand you",
+                "Sorry I need a question"
+            ]
+        },
+        {
+            "tag": " datatypes",
+            "patterns": [
+                "How could you help me with data types?",
+                "What can be done with data types?",
+                "What are data types?",
+                "What are data types?",
+                "What is a data type?",
+                " How to use data types?",
+                "Why use data types?",
+                "Why are data types used?",
+                "What are data types?"
+            ],
+            "responses": [
+                "In Python, there are different types. Primitive data types are int, float, bool, and str (for strings). 3 is an int. \"2.05\" is a float. True is a bool. \"Hello\" and 'Hello' are str. You can also define new types, for example with classes.",
+                "In Python, there are different types. Primitive data types are int, float, bool, and str (for strings). 3 is an int. \"2.05\" is a float. True is a bool. \"Hello\" and 'Hello' are str. You can also define new types, for example with classes.",
+                "In Python, there are different types. Primitive data types are int, float, bool, and str (for strings). 3 is an int. \"2.05\" is a float. True is a bool. \"Hello\" and 'Hello' are str. You can also define new types, for example with classes.",
+                "In Python, there are different types. Primitive data types are int, float, bool, and str (for strings). 3 is an int. \"2.05\" is a float. True is a bool. \"Hello\" and 'Hello' are str. You can also define new types, for example with classes.",
+                "In Python, there are different types. Primitive data types are int, float, bool, and str (for strings). 3 is an int. \"2.05\" is a float. True is a bool. \"Hello\" and 'Hello' are str. You can also define new types, for example with classes.",
+                "In Python, there are different types. Primitive data types are int, float, bool, and str (for strings). 3 is an int. \"2.05\" is a float. True is a bool. \"Hello\" and 'Hello' are str. You can also define new types, for example with classes.",
+                "In Python, there are different types. Primitive data types are int, float, bool, and str (for strings). 3 is an int. \"2.05\" is a float. True is a bool. \"Hello\" and 'Hello' are str. You can also define new types, for example with classes.",
+                "In Python, there are different types. Primitive data types are int, float, bool, and str (for strings). 3 is an int. \"2.05\" is a float. True is a bool. \"Hello\" and 'Hello' are str. You can also define new types, for example with classes.",
+                "In Python, there are different types. Primitive data types are int, float, bool, and str (for strings). 3 is an int. \"2.05\" is a float. True is a bool. \"Hello\" and 'Hello' are str. You can also define new types, for example with classes."
+            ]
+        },
+        {
+            "tag": "primitivetypes",
+            "patterns": [
+                "What are the data types?",
+                "What are the primitive types?",
+                "primitive types"
+            ],
+            "responses": [
+                "In Python, the primitive data types are integers, float, boolean, and string (for strings). 3 is an integer and \"2.05\" is a float. \"True\" is a bool. \"Hello\" and 'Hello' are str.",
+                "In Python, the primitive data types are integers, float, boolean, and string (for strings). 3 is an integer and \"2.05\" is a float. \"True\" is a bool. \"Hello\" and 'Hello' are str.",
+                "In Python, the primitive data types are integers, float, boolean, and string (for strings). 3 is an integer and \"2.05\" is a float. \"True\" is a bool. \"Hello\" and 'Hello' are str."
+            ]
+        },
+        {
+            "tag": "integers",
+            "patterns": [
+                "What is the int type?",
+                "What is int?",
+                "type int",
+                "integers",
+                "What is the int type?",
+                "What is the integer type in Python?",
+                "What is the integer type in Python?",
+                "How do you represent an integer in Python?"
+            ],
+            "responses": [
+                "int is a Python primitive type. Integers are whole numbers or with no decimals. They can be positive or negative. example \"657\" and \"-389\" are integers.",
+                "int is a Python primitive type. Integers are whole numbers or with no decimals. They can be positive or negative. example \"657\" and \"-389\" are integers.",
+                "int is a Python primitive type. Integers are whole numbers or with no decimals. They can be positive or negative. example \"657\" and \"-389\" are integers.",
+                "int is a Python primitive type. Integers are whole numbers or with no decimals. They can be positive or negative. example \"657\" and \"-389\" are integers.",
+                "int is a Python primitive type. Integers are whole numbers or with no decimals. They can be positive or negative. example \"657\" and \"-389\" are integers.",
+                "int is a Python primitive type. Integers are whole numbers or with no decimals. They can be positive or negative. example \"657\" and \"-389\" are integers.",
+                "int is a Python primitive type. Integers are whole numbers or with no decimals. They can be positive or negative. example \"657\" and \"-389\" are integers.",
+                "int is a Python primitive type. Integers are whole numbers or with no decimals. They can be positive or negative. example \"657\" and \"-389\" are integers."
+            ]
+        },
+        {
+            "tag": "float",
+            "patterns": [
+                "What is the float type?",
+                "What is float?",
+                "float-type",
+                "float",
+                "What is the float type?",
+                "What is float type in Python?",
+                "What is the type for floats in Python?",
+                "Which type to use for floating numbers?",
+                "Which type to use for floats?"
+            ],
+            "responses": [
+                "float is a Python primitive type. Floats are real numbers. They are called floating. They can be positive or negative. They are written with a decimal point which separates the integer from the fractional numbers.\" 634.25, 56.10 and 7.0 \" are floats.",
+                "float is a Python primitive type. Floats are real numbers. They are called floating. They can be positive or negative. They are written with a decimal point which separates the integer from the fractional numbers.\" 634.25, 56.10 and 7.0 \" are floats.",
+                "float is a Python primitive type. Floats are real numbers. They are called floating. They can be positive or negative. They are written with a decimal point which separates the integer from the fractional numbers.\" 634.25, 56.10 and 7.0 \" are floats.",
+                "float is a Python primitive type. Floats are real numbers. They are called floating. They can be positive or negative. They are written with a decimal point which separates the integer from the fractional numbers.\" 634.25, 56.10 and 7.0 \" are floats.",
+                "float is a Python primitive type. Floats are real numbers. They are called floating. They can be positive or negative. They are written with a decimal point which separates the integer from the fractional numbers.\" 634.25, 56.10 and 7.0 \" are floats.",
+                "float is a Python primitive type. Floats are real numbers. They are called floating. They can be positive or negative. They are written with a decimal point which separates the integer from the fractional numbers.\" 634.25, 56.10 and 7.0 \" are floats.",
+                "float is a Python primitive type. Floats are real numbers. They are called floating. They can be positive or negative. They are written with a decimal point which separates the integer from the fractional numbers.\" 634.25, 56.10 and 7.0 \" are floats.",
+                "float is a Python primitive type. Floats are real numbers. They are called floating. They can be positive or negative. They are written with a decimal point which separates the integer from the fractional numbers.\" 634.25, 56.10 and 7.0 \" are floats.",
+                "float is a Python primitive type. Floats are real numbers. They are called floating. They can be positive or negative. They are written with a decimal point which separates the integer from the fractional numbers.\" 634.25, 56.10 and 7.0 \" are floats."
+            ]
+        },
+        {
+            "tag": "complex",
+            "patterns": [
+                "What is the complex type?",
+                "What is complex?",
+                "complex-type",
+                "complex",
+                "What is the complex type?",
+                "How to represent a complex number in Python?",
+                "complex number in Python"
+            ],
+            "responses": [
+                " The complex type is used to represent complex numbers in Python. Complex numbers have a real part and an imaginary part. They take the form \"a + bj\" where a and b are the real and imaginary part. \"6 + 3j\" is a complex number in Python.",
+                " The complex type is used to represent complex numbers in Python. Complex numbers have a real part and an imaginary part. They take the form \"a + bj\" where a and b are the real and imaginary part. \"6 + 3j\" is a complex number in Python.",
+                " The complex type is used to represent complex numbers in Python. Complex numbers have a real part and an imaginary part. They take the form \"a + bj\" where a and b are the real and imaginary part. \"6 + 3j\" is a complex number in Python.",
+                " The complex type is used to represent complex numbers in Python. Complex numbers have a real part and an imaginary part. They take the form \"a + bj\" where a and b are the real and imaginary part. \"6 + 3j\" is a complex number in Python.",
+                " The complex type is used to represent complex numbers in Python. Complex numbers have a real part and an imaginary part. They take the form \"a + bj\" where a and b are the real and imaginary part. \"6 + 3j\" is a complex number in Python.",
+                " The complex type is used to represent complex numbers in Python. Complex numbers have a real part and an imaginary part. They take the form \"a + bj\" where a and b are the real and imaginary part. \"6 + 3j\" is a complex number in Python.",
+                " The complex type is used to represent complex numbers in Python. Complex numbers have a real part and an imaginary part. They take the form \"a + bj\" where a and b are the real and imaginary part. \"6 + 3j\" is a complex number in Python."
+            ]
+        },
+        {
+            "tag": "boolean",
+            "patterns": [
+                "What is the bool type?",
+                "What is bool?",
+                "bool-type",
+                "boolean",
+                "boolean",
+                "boolean type",
+                "What is the bool type?",
+                "What is type for booleans in Python?",
+                "How do you represent a boolean in Python?",
+                "boolean",
+                "What is a boolean?"
+            ],
+            "responses": [
+                " boolean is a Python primitive type. True and False are booleans. True and False are capitalized. The bool type is used in comparisons, in loop conditions etc.",
+                " boolean is a Python primitive type. True and False are booleans. True and False are capitalized. The bool type is used in comparisons, in loop conditions etc.",
+                " boolean is a Python primitive type. True and False are booleans. True and False are capitalized. The bool type is used in comparisons, in loop conditions etc.",
+                " boolean is a Python primitive type. True and False are booleans. True and False are capitalized. The bool type is used in comparisons, in loop conditions etc.",
+                " boolean is a Python primitive type. True and False are booleans. True and False are capitalized. The bool type is used in comparisons, in loop conditions etc.",
+                " boolean is a Python primitive type. True and False are booleans. True and False are capitalized. The bool type is used in comparisons, in loop conditions etc.",
+                " boolean is a Python primitive type. True and False are booleans. True and False are capitalized. The bool type is used in comparisons, in loop conditions etc.",
+                " boolean is a Python primitive type. True and False are booleans. True and False are capitalized. The bool type is used in comparisons, in loop conditions etc.",
+                " boolean is a Python primitive type. True and False are booleans. True and False are capitalized. The bool type is used in comparisons, in loop conditions etc.",
+                " boolean is a Python primitive type. True and False are booleans. True and False are capitalized. The bool type is used in comparisons, in loop conditions etc.",
+                " boolean is a Python primitive type. True and False are booleans. True and False are capitalized. The bool type is used in comparisons, in loop conditions etc."
+            ]
+        },
+        {
+            "tag": "syntaxpython",
+            "patterns": [
+                "What is Python syntax?",
+                "python syntax",
+                "syntax",
+                "What are the specifics of Python syntax?"
+            ],
+            "responses": [
+                "Every programming language has a syntax. Python syntax refers to the set of rules defining how a Python program should be written. In Python, you have to put indents in the code. This is specific to Python.",
+                "Every programming language has a syntax. Python syntax refers to the set of rules defining how a Python program should be written. In Python, you have to put indents in the code. This is specific to Python.",
+                "Every programming language has a syntax. Python syntax refers to the set of rules defining how a Python program should be written. In Python, you have to put indents in the code. This is specific to Python.",
+                "Every programming language has a syntax. Python syntax refers to the set of rules defining how a Python program should be written. In Python, you have to put indents in the code. This is specific to Python."
+            ]
+        },
+        {
+            "tag": " keywords",
+            "patterns": [
+                "What are the keywords?",
+                "What are keywords?",
+                "What are the reserved words?",
+                "What are reserved words?",
+                " what do the keywords mean?",
+                "what do the reserved words mean?",
+                "the keywords",
+                "keywords",
+                "reserved words",
+                "reserved words"
+            ],
+            "responses": [
+                "Pythons reserved keywords are, and, as, assert, break, class, continue, def, del, elif, else, except, exec, False, finally, for, from, global, if, import, in, is, lambda, None, not, or, pass, print, raise, return, True, try, while, with, yield. They should not be used in code as variables, constants, function names or identifiers. The list is available using function \"dir(__builtin__)\"",
+                "Pythons reserved keywords are, and, as, assert, break, class, continue, def, del, elif, else, except, exec, False, finally, for, from, global, if, import, in, is, lambda, None, not, or, pass, print, raise, return, True, try, while, with, yield. They should not be used in code as variables, constants, function names or identifiers. The list is available using function \"dir(__builtin__)\"",
+                "Pythons reserved keywords are, and, as, assert, break, class, continue, def, del, elif, else, except, exec, False, finally, for, from, global, if, import, in, is, lambda, None, not, or, pass, print, raise, return, True, try, while, with, yield. They should not be used in code as variables, constants, function names or identifiers. The list is available using function \"dir(__builtin__)\"",
+                "Pythons reserved keywords are, and, as, assert, break, class, continue, def, del, elif, else, except, exec, False, finally, for, from, global, if, import, in, is, lambda, None, not, or, pass, print, raise, return, True, try, while, with, yield. They should not be used in code as variables, constants, function names or identifiers. The list is available using function \"dir(__builtin__)\"",
+                "Pythons reserved keywords are, and, as, assert, break, class, continue, def, del, elif, else, except, exec, False, finally, for, from, global, if, import, in, is, lambda, None, not, or, pass, print, raise, return, True, try, while, with, yield. They should not be used in code as variables, constants, function names or identifiers. The list is available using function \"dir(__builtin__)\"",
+                "Pythons reserved keywords are, and, as, assert, break, class, continue, def, del, elif, else, except, exec, False, finally, for, from, global, if, import, in, is, lambda, None, not, or, pass, print, raise, return, True, try, while, with, yield. They should not be used in code as variables, constants, function names or identifiers. The list is available using function \"dir(__builtin__)\"",
+                "Pythons reserved keywords are, and, as, assert, break, class, continue, def, del, elif, else, except, exec, False, finally, for, from, global, if, import, in, is, lambda, None, not, or, pass, print, raise, return, True, try, while, with, yield. They should not be used in code as variables, constants, function names or identifiers. The list is available using function \"dir(__builtin__)\"",
+                "Pythons reserved keywords are, and, as, assert, break, class, continue, def, del, elif, else, except, exec, False, finally, for, from, global, if, import, in, is, lambda, None, not, or, pass, print, raise, return, True, try, while, with, yield. They should not be used in code as variables, constants, function names or identifiers. The list is available using function \"dir(__builtin__)\"",
+                "Pythons reserved keywords are, and, as, assert, break, class, continue, def, del, elif, else, except, exec, False, finally, for, from, global, if, import, in, is, lambda, None, not, or, pass, print, raise, return, True, try, while, with, yield. They should not be used in code as variables, constants, function names or identifiers. The list is available using function \"dir(__builtin__)\"",
+                "Pythons reserved keywords are, and, as, assert, break, class, continue, def, del, elif, else, except, exec, False, finally, for, from, global, if, import, in, is, lambda, None, not, or, pass, print, raise, return, True, try, while, with, yield. They should not be used in code as variables, constants, function names or identifiers. The list is available using function \"dir(__builtin__)\""
+            ]
+        },
+        {
+            "tag": "identifier",
+            "patterns": [
+                "What is an identifier?",
+                "identifier",
+                "What is an identifier?"
+            ],
+            "responses": [
+                " Python identifier is the name given to a variable, function, class, module etc. Any entity must be appropriately named or identified for use in a program.",
+                " Python identifier is the name given to a variable, function, class, module etc. Any entity must be appropriately named or identified for use in a program.",
+                " Python identifier is the name given to a variable, function, class, module etc. Any entity must be appropriately named or identified for use in a program."
+            ]
+        },
+        {
+            "tag": " identifiersyntax",
+            "patterns": [
+                "What is the syntax of an identifier?",
+                "What is the form of an identifier?",
+                "How to name an identifier?",
+                "How to call an identifier?"
+            ],
+            "responses": [
+                " Python identifier is the name given to a variable, function, class, module etc. Any entity must be appropriately named or identified for use in a program.",
+                " Python identifier is the name given to a variable, function, class, module etc. Any entity must be appropriately named or identified for use in a program.",
+                " Python identifier is the name given to a variable, function, class, module etc. Any entity must be appropriately named or identified for use in a program.",
+                " Python identifier is the name given to a variable, function, class, module etc. Any entity must be appropriately named or identified for use in a program."
+            ]
+        },
+        {
+            "tag": "unicode",
+            "patterns": [
+                "character string is a sequence of Unicode characters that can be a combination of letters, numbers, and special symbols. The type of a string is str. A string is surrounded by single (') or double () quotes.",
+                "What is unicode?",
+                "unicode"
+            ],
+            "responses": [
+                "Unicode is a standard that allows text to be exchanged in different languages, including languages that are not based on the Latin alphabet.",
+                "Unicode is a standard that allows text to be exchanged in different languages, including languages that are not based on the Latin alphabet.",
+                "Unicode is a standard that allows text to be exchanged in different languages, including languages that are not based on the Latin alphabet."
+            ]
+        },
+        {
+            "tag": "variable",
+            "patterns": [
+                "What is a variable?",
+                "What is a variable used for?",
+                "What is a variable?",
+                "How to declare a variable?",
+                "How to define a variable?",
+                "define a variable",
+                "declare a variable",
+                "Why are variables used?"
+            ],
+            "responses": [
+                "A variable is like a container that stores values that you can access and change using their id or name. Variables are stored in memory. You can declare a variable by giving it a value. In \"un = 1\", the variable un takes the value \"1\". We say that we assign the value \"1\" to the variable \"1\". The variable is defined, and it can be used.",
+                "A variable is like a container that stores values that you can access and change using their id or name. Variables are stored in memory. You can declare a variable by giving it a value. In \"un = 1\", the variable un takes the value \"1\". We say that we assign the value \"1\" to the variable \"1\". The variable is defined, and it can be used.",
+                "A variable is like a container that stores values that you can access and change using their id or name. Variables are stored in memory. You can declare a variable by giving it a value. In \"un = 1\", the variable un takes the value \"1\". We say that we assign the value \"1\" to the variable \"1\". The variable is defined, and it can be used.",
+                "A variable is like a container that stores values that you can access and change using their id or name. Variables are stored in memory. You can declare a variable by giving it a value. In \"un = 1\", the variable un takes the value \"1\". We say that we assign the value \"1\" to the variable \"1\". The variable is defined, and it can be used.",
+                "A variable is like a container that stores values that you can access and change using their id or name. Variables are stored in memory. You can declare a variable by giving it a value. In \"un = 1\", the variable un takes the value \"1\". We say that we assign the value \"1\" to the variable \"1\". The variable is defined, and it can be used.",
+                "A variable is like a container that stores values that you can access and change using their id or name. Variables are stored in memory. You can declare a variable by giving it a value. In \"un = 1\", the variable un takes the value \"1\". We say that we assign the value \"1\" to the variable \"1\". The variable is defined, and it can be used.",
+                "A variable is like a container that stores values that you can access and change using their id or name. Variables are stored in memory. You can declare a variable by giving it a value. In \"un = 1\", the variable un takes the value \"1\". We say that we assign the value \"1\" to the variable \"1\". The variable is defined, and it can be used.",
+                "A variable is like a container that stores values that you can access and change using their id or name. Variables are stored in memory. You can declare a variable by giving it a value. In \"un = 1\", the variable un takes the value \"1\". We say that we assign the value \"1\" to the variable \"1\". The variable is defined, and it can be used."
+            ]
+        },
+        {
+            "tag": "assignvariable",
+            "patterns": [
+                "How to assign a variable?",
+                "What is variable assignment?",
+                "What is an assignment?"
+            ],
+            "responses": [
+                "A variable is like a container that stores values that you can access and change using their id or name. Variables are stored in memory. You can declare a variable by giving it a value. In \"un = 1\", the variable un takes the value \"1\". We say that we assign the value \"1\" to the variable \"1\". The variable being defined, it can be used.",
+                "A variable is like a container that stores values that you can access and change using their id or name. Variables are stored in memory. You can declare a variable by giving it a value. In \"un = 1\", the variable un takes the value \"1\". We say that we assign the value \"1\" to the variable \"1\". The variable being defined, it can be used.",
+                "A variable is like a container that stores values that you can access and change using their id or name. Variables are stored in memory. You can declare a variable by giving it a value. In \"un = 1\", the variable un takes the value \"1\". We say that we assign the value \"1\" to the variable \"1\". The variable being defined, it can be used."
+            ]
+        },
+        {
+            "tag": "operators",
+            "patterns": [
+                "What are the basic operators?",
+                "What are the operators?",
+                "basic operators",
+                "operators",
+                "What are the types of operators?",
+                "operator types",
+                "What are comparison operators?",
+                "comparison operators",
+                "What are logical operators?",
+                "logical operators",
+                "What are assignment operators?",
+                "assignment operators",
+                "What are Identity Operators?",
+                "identity operators"
+            ],
+            "responses": [
+                "Python has different types of operators. arithmetic operators\" +, -, *, /, %, // (integer division) and ** (power)\". assignment operators are \" =, +=, *=, /=, //=\" relational or comparison operators are \" ==, >, <, !=, =<, =>\". logical operators are \" or, and, not\". identity operators are \"is, is not.\"",
+                "Python has different types of operators. arithmetic operators\" +, -, *, /, %, // (integer division) and ** (power)\". assignment operators are \" =, +=, *=, /=, //=\" relational or comparison operators are \" ==, >, <, !=, =<, =>\". logical operators are \" or, and, not\". identity operators are \"is, is not.\"",
+                "Python has different types of operators. arithmetic operators\" +, -, *, /, %, // (integer division) and ** (power)\". assignment operators are \" =, +=, *=, /=, //=\" relational or comparison operators are \" ==, >, <, !=, =<, =>\". logical operators are \" or, and, not\". identity operators are \"is, is not.\"",
+                "Python has different types of operators. arithmetic operators\" +, -, *, /, %, // (integer division) and ** (power)\". assignment operators are \" =, +=, *=, /=, //=\" relational or comparison operators are \" ==, >, <, !=, =<, =>\". logical operators are \" or, and, not\". identity operators are \"is, is not.\"",
+                "Python has different types of operators. arithmetic operators\" +, -, *, /, %, // (integer division) and ** (power)\". assignment operators are \" =, +=, *=, /=, //=\" relational or comparison operators are \" ==, >, <, !=, =<, =>\". logical operators are \" or, and, not\". identity operators are \"is, is not.\"",
+                "Python has different types of operators. arithmetic operators\" +, -, *, /, %, // (integer division) and ** (power)\". assignment operators are \" =, +=, *=, /=, //=\" relational or comparison operators are \" ==, >, <, !=, =<, =>\". logical operators are \" or, and, not\". identity operators are \"is, is not.\"",
+                "comparison operators are \" ==, >, <, !=, =<, =>\"",
+                "comparison operators are \" ==, >, <, !=, =<, =>\"",
+                " logical operators are \" or, and, not\"",
+                " logical operators are \" or, and, not\"",
+                "assignment operators are \" =, +=, *=, /=, //=\" ",
+                "assignment operators are \" =, +=, *=, /=, //=\" ",
+                " identity operators are \"is, is not.\"",
+                " identity operators are \"is, is not.\""
+            ]
+        },
+        {
+            "tag": "arithmeticoperators",
+            "patterns": [
+                "How to calculate in Python?",
+                "How do you calculate in Python?",
+                "arithmetic operators",
+                "What are arithmetic operators?",
+                "How to do calculations in Python?"
+            ],
+            "responses": [
+                "You can do calculations in Python. To add \" +\". To subtract \"-\". To multiply  \"*\". To divide \"/\". To use a power \"**\". To get the remainder of integer division \" % \". To get the dividend of the integer division \" //\"",
+                "You can do calculations in Python. To add \" +\". To subtract \"-\". To multiply  \"*\". To divide \"/\". To use a power \"**\". To get the remainder of integer division \" % \". To get the dividend of the integer division \" //\"",
+                " To add \" +\". To subtract \"-\". To multiply  \"*\". To divide \"/\". To use a power \"**\". To get the remainder of integer division \" % \". To get the dividend of the integer division \" //\"",
+                " To add \" +\". To subtract \"-\". To multiply  \"*\". To divide \"/\". To use a power \"**\". To get the remainder of integer division \" % \". To get the dividend of the integer division \" //\"",
+                " To add \" +\". To subtract \"-\". To multiply  \"*\". To divide \"/\". To use a power \"**\". To get the remainder of integer division \" % \". To get the dividend of the integer division \" //\""
+            ]
+        },
+        {
+            "tag": "typecasting",
+            "patterns": [
+                "How to do conversions on types?",
+                "What is a type conversion?",
+                "How to do type conversions?",
+                "How to convert from one type to another?",
+                "How to do a type conversion?",
+                "convert a type",
+                "convert from one type to another",
+                "conversion from one type to another",
+                "What is the cast?",
+                "What is the cast?",
+                "cast"
+            ],
+            "responses": [
+                "There are explicit and implicit type conversions in Python. Explicit conversions are done with the functions int, float, bool, and str. This is called casting or type casting. To convert a number n to int, use the int function and write int(n). ",
+                "There are explicit and implicit type conversions in Python. Explicit conversions are done with the functions int, float, bool, and str. This is called casting or type casting. To convert a number n to int, use the int function and write int(n). ",
+                "There are explicit and implicit type conversions in Python. Explicit conversions are done with the functions int, float, bool, and str. This is called casting or type casting. To convert a number n to int, use the int function and write int(n). ",
+                "There are explicit and implicit type conversions in Python. Explicit conversions are done with the functions int, float, bool, and str. This is called casting or type casting. To convert a number n to int, use the int function and write int(n). ",
+                "There are explicit and implicit type conversions in Python. Explicit conversions are done with the functions int, float, bool, and str. This is called casting or type casting. To convert a number n to int, use the int function and write int(n). ",
+                "There are explicit and implicit type conversions in Python. Explicit conversions are done with the functions int, float, bool, and str. This is called casting or type casting. To convert a number n to int, use the int function and write int(n). ",
+                "There are explicit and implicit type conversions in Python. Explicit conversions are done with the functions int, float, bool, and str. This is called casting or type casting. To convert a number n to int, use the int function and write int(n). ",
+                "There are explicit and implicit type conversions in Python. Explicit conversions are done with the functions int, float, bool, and str. This is called casting or type casting. To convert a number n to int, use the int function and write int(n). ",
+                "There are explicit and implicit type conversions in Python. Explicit conversions are done with the functions int, float, bool, and str. This is called casting or type casting. To convert a number n to int, use the int function and write int(n). ",
+                "There are explicit and implicit type conversions in Python. Explicit conversions are done with the functions int, float, bool, and str. This is called casting or type casting. To convert a number n to int, use the int function and write int(n). ",
+                "There are explicit and implicit type conversions in Python. Explicit conversions are done with the functions int, float, bool, and str. This is called casting or type casting. To convert a number n to int, use the int function and write int(n). "
+            ]
+        },
+        {
+            "tag": "operatorpriority",
+            "patterns": [
+                "What are operator precedence in Python?",
+                "What is the priority over the operators?",
+                "operator precedence"
+            ],
+            "responses": [
+                "Operator precedence in Python is defined as parentheses, power, multiplication, division, modulo, addition and subtraction.",
+                "Operator precedence in Python is defined as parentheses, power, multiplication, division, modulo, addition and subtraction.",
+                "Operator precedence in Python is defined as parentheses, power, multiplication, division, modulo, addition and subtraction."
+            ]
+        },
+        {
+            "tag": " true",
+            "patterns": [
+                "What is True?",
+                "What is True?",
+                " True",
+                " true",
+                "TRUE"
+            ],
+            "responses": [
+                "True is True in Python. It is of type bool. True begins with an uppercase letter.",
+                "True is True in Python. It is of type bool. True begins with an uppercase letter.",
+                "True is True in Python. It is of type bool. True begins with an uppercase letter.",
+                "True is True in Python. It is of type bool. True begins with an uppercase letter.",
+                "True is True in Python. It is of type bool. True begins with an uppercase letter."
+            ]
+        },
+        {
+            "tag": " false",
+            "patterns": [
+                "What is False?",
+                "What is False?",
+                " False",
+                " false"
+            ],
+            "responses": [
+                "False is False in Python. It is of type bool. False begins with an uppercase letter.",
+                "False is False in Python. It is of type bool. False begins with an uppercase letter.",
+                "False is False in Python. It is of type bool. False begins with an uppercase letter.",
+                "False is False in Python. It is of type bool. False begins with an uppercase letter."
+            ]
+        },
+        {
+            "tag": "and",
+            "patterns": [
+                "What is and?",
+                "What is and?",
+                "and"
+            ],
+            "responses": [
+                "and is a logical operator. It represents the logical and. True and True is True. True and False is False. False and True is False. False and False is False.",
+                "and is a logical operator. It represents the logical and. True and True is True. True and False is False. False and True is False. False and False is False.",
+                "and is a logical operator. It represents the logical and. True and True is True. True and False is False. False and True is False. False and False is False."
+            ]
+        },
+        {
+            "tag": "or",
+            "patterns": [
+                "What is gold?"
+            ],
+            "responses": [
+                " or is a logical operator. It represents logical gold. True or True is True. True or False is False. False or True is True. False or False is False."
+            ]
+        },
+        {
+            "tag": "not",
+            "patterns": [
+                "What is not?",
+                "What is not?",
+                "not"
+            ],
+            "responses": [
+                " not is a logical operator. It represents negation. not(True) is False. not(False) is True.",
+                " not is a logical operator. It represents negation. not(True) is False. not(False) is True.",
+                " not is a logical operator. It represents negation. not(True) is False. not(False) is True."
+            ]
+        },
+        {
+            "tag": "controlstructure",
+            "patterns": [
+                "What is a control statement?",
+                "What are conditional statements?",
+                "What is a conditional statement?",
+                "What are conditional statements?",
+                "conditional statements",
+                "conditional statement",
+                "What is if?",
+                "What is elif?",
+                "What is else?",
+                "if",
+                "else",
+                "elif"
+            ],
+            "responses": [
+                "control statements are used to perform actions or calculations based on the result of evaluating a condition. They allow decisions to be made. controls are introduced by if. We can have control statements with only an if, with an if else, or with if elif else when there are more conditions to evaluate.",
+                "control statements are used to perform actions or calculations based on the result of evaluating a condition. They allow decisions to be made. controls are introduced by if. We can have control statements with only an if, with an if else, or with if elif else when there are more conditions to evaluate.",
+                "control statements are used to perform actions or calculations based on the result of evaluating a condition. They allow decisions to be made. controls are introduced by if. We can have control statements with only an if, with an if else, or with if elif else when there are more conditions to evaluate.",
+                "control statements are used to perform actions or calculations based on the result of evaluating a condition. They allow decisions to be made. controls are introduced by if. We can have control statements with only an if, with an if else, or with if elif else when there are more conditions to evaluate.",
+                "control statements are used to perform actions or calculations based on the result of evaluating a condition. They allow decisions to be made. controls are introduced by if. We can have control statements with only an if, with an if else, or with if elif else when there are more conditions to evaluate.",
+                "control statements are used to perform actions or calculations based on the result of evaluating a condition. They allow decisions to be made. controls are introduced by if. We can have control statements with only an if, with an if else, or with if elif else when there are more conditions to evaluate.",
+                "control statements are used to perform actions or calculations based on the result of evaluating a condition. They allow decisions to be made. controls are introduced by if. We can have control statements with only an if, with an if else, or with if elif else when there are more conditions to evaluate.",
+                "control statements are used to perform actions or calculations based on the result of evaluating a condition. They allow decisions to be made. controls are introduced by if. We can have control statements with only an if, with an if else, or with if elif else when there are more conditions to evaluate.",
+                "control statements are used to perform actions or calculations based on the result of evaluating a condition. They allow decisions to be made. controls are introduced by if. We can have control statements with only an if, with an if else, or with if elif else when there are more conditions to evaluate.",
+                "control statements are used to perform actions or calculations based on the result of evaluating a condition. They allow decisions to be made. controls are introduced by if. We can have control statements with only an if, with an if else, or with if elif else when there are more conditions to evaluate.",
+                "control statements are used to perform actions or calculations based on the result of evaluating a condition. They allow decisions to be made. controls are introduced by if. We can have control statements with only an if, with an if else, or with if elif else when there are more conditions to evaluate.",
+                "control statements are used to perform actions or calculations based on the result of evaluating a condition. They allow decisions to be made. controls are introduced by if. We can have control statements with only an if, with an if else, or with if elif else when there are more conditions to evaluate."
+            ]
+        },
+        {
+            "tag": "IDE",
+            "patterns": [
+                "What IDE can I use?",
+                "Which editor to use?",
+                "editor",
+                "IDE"
+            ],
+            "responses": [
+                "IDE stands for Integrated Development Environment. An IDE is used to facilitate computer coding. There are many for Python. Google Colab, IDLE, PyCharm, Spyder and Visual Studio.",
+                "IDE stands for Integrated Development Environment. An IDE is used to facilitate computer coding. There are many for Python. Google Colab, IDLE, PyCharm, Spyder and Visual Studio.",
+                "IDE stands for Integrated Development Environment. An IDE is used to facilitate computer coding. There are many for Python. Google Colab, IDLE, PyCharm, Spyder and Visual Studio.",
+                "IDE stands for Integrated Development Environment. An IDE is used to facilitate computer coding. There are many for Python. Google Colab, IDLE, PyCharm, Spyder and Visual Studio."
+            ]
+        },
+        {
+            "tag": "python",
+            "patterns": [
+                "What is Python?",
+                "Tell me about Python",
+                "Why use Python?",
+                "I want to learn more about Python",
+                "What is python used for?",
+                "What is Python?",
+                "What is Python?",
+                "What is Python?",
+                " Why was Python invented?",
+                "What are the benefits of Python?",
+                "List the benefits of Python",
+                "Why is Python so popular?"
+            ],
+            "responses": [
+                " Python is a popular programming language. It was created by Guido Van Rossum and released in \"1991\". It is used for software development, web development and data science.",
+                " Python is a popular programming language. It was created by Guido Van Rossum and released in \"1991\". It is used for software development, web development and data science.",
+                " Python is a popular programming language. It was created by Guido Van Rossum and released in \"1991\". It is used for software development, web development and data science.",
+                " Python is a popular programming language. It was created by Guido Van Rossum and released in \"1991\". It is used for software development, web development and data science.",
+                " Python is a popular programming language. It was created by Guido Van Rossum and released in \"1991\". It is used for software development, web development and data science.",
+                "Python is an interpreted, interactive, object-oriented programming language. It is used in many sectors. Nowadays, Python seems to be the most affordable language for beginners. It is used in computer science but also in economics, humanities etc.",
+                "Python is an interpreted, interactive, object-oriented programming language. It is used in many sectors. Nowadays, Python seems to be the most affordable language for beginners. It is used in computer science but also in economics, humanities etc.",
+                "Python is an interpreted, interactive, object-oriented programming language. It is used in many sectors. Nowadays, Python seems to be the most affordable language for beginners. It is used in computer science but also in economics, humanities etc.",
+                "Python is an interpreted, interactive, object-oriented programming language. It is used in many sectors. Nowadays, Python seems to be the most affordable language for beginners. It is used in computer science but also in economics, humanities etc.",
+                "Python is an interpreted, interactive, object-oriented programming language. It is used in many sectors. Nowadays, Python seems to be the most affordable language for beginners. It is used in computer science but also in economics, humanities etc.",
+                "Python is an interpreted, interactive, object-oriented programming language. It is used in many sectors. Nowadays, Python seems to be the most affordable language for beginners. It is used in computer science but also in economics, humanities etc.",
+                "Python is an interpreted, interactive, object-oriented programming language. It is used in many sectors. Nowadays, Python seems to be the most affordable language for beginners. It is used in computer science but also in economics, humanities etc."
+            ]
+        },
+        {
+            "tag": "pythonversion",
+            "patterns": [
+                "What is the most used version of Python?",
+                "What is the current version of Python?",
+                "version",
+                "current version"
+            ],
+            "responses": [
+                "Python \"3\" is the most widely used version of Python.",
+                "Python \"3\" is the most widely used version of Python.",
+                "Python \"3\" is the most widely used version of Python.",
+                "Python \"3\" is the most widely used version of Python."
+            ]
+        },
+        {
+            "tag": "print",
+            "patterns": [
+                " How to display a string?",
+                " How to display a character string?",
+                "display a string",
+                "What is print?",
+                "What is print?",
+                "print"
+            ],
+            "responses": [
+                "To print a string, we use the print function. \"print(\"Hello\")\" prints Hello. Similarly, \"print(\"Bon\"+\"jour\")\" prints  \"Bonjour\" as well. print(\"Good\", \"day\") prints Good day (with a space).",
+                "To print a string, we use the print function. \"print(\"Hello\")\" prints Hello. Similarly, \"print(\"Bon\"+\"jour\")\" prints  \"Bonjour\" as well. print(\"Good\", \"day\") prints Good day (with a space).",
+                "To print a string, we use the print function. \"print(\"Hello\")\" prints Hello. Similarly, \"print(\"Bon\"+\"jour\")\" prints  \"Bonjour\" as well. print(\"Good\", \"day\") prints Good day (with a space).",
+                "To print a string, we use the print function. \"print(\"Hello\")\" prints Hello. Similarly, \"print(\"Bon\"+\"jour\")\" prints  \"Bonjour\" as well. print(\"Good\", \"day\") prints Good day (with a space).",
+                "To print a string, we use the print function. \"print(\"Hello\")\" prints Hello. Similarly, \"print(\"Bon\"+\"jour\")\" prints  \"Bonjour\" as well. print(\"Good\", \"day\") prints Good day (with a space).",
+                "To print a string, we use the print function. \"print(\"Hello\")\" prints Hello. Similarly, \"print(\"Bon\"+\"jour\")\" prints  \"Bonjour\" as well. print(\"Good\", \"day\") prints Good day (with a space)."
+            ]
+        },
+        {
+            "tag": "string",
+            "patterns": [
+                "What is a string?",
+                "What is a chain?",
+                "What is a character string?",
+                "What is a character string?",
+                "What is a thong?",
+                "chain",
+                "character string",
+                "string",
+                "How to create a character string?",
+                "how to create a channel?",
+                "How to define a string?",
+                "How to define a character string?",
+                "define a string",
+                "create a channel",
+                "create a string",
+                "define a string",
+                "string"
+            ],
+            "responses": [
+                "A character string is a sequence of characters that can be a combination of letters, numbers, and special symbols. The type of a character string is string. A string is surrounded by single or double quotes.",
+                "A character string is a sequence of characters that can be a combination of letters, numbers, and special symbols. The type of a character string is string. A string is surrounded by single or double quotes.",
+                "A character string is a sequence of characters that can be a combination of letters, numbers, and special symbols. The type of a character string is string. A string is surrounded by single or double quotes.",
+                "A character string is a sequence of characters that can be a combination of letters, numbers, and special symbols. The type of a character string is string. A string is surrounded by single or double quotes.",
+                "A character string is a sequence of characters that can be a combination of letters, numbers, and special symbols. The type of a character string is string. A string is surrounded by single or double quotes.",
+                "A character string is a sequence of characters that can be a combination of letters, numbers, and special symbols. The type of a character string is string. A string is surrounded by single or double quotes.",
+                "A character string is a sequence of characters that can be a combination of letters, numbers, and special symbols. The type of a character string is string. A string is surrounded by single or double quotes.",
+                "A character string is a sequence of characters that can be a combination of letters, numbers, and special symbols. The type of a character string is string. A string is surrounded by single or double quotes.",
+                "A character string is a sequence of characters that can be a combination of letters, numbers, and special symbols. The type of a character string is string. A string is surrounded by single or double quotes.",
+                "A character string is a sequence of characters that can be a combination of letters, numbers, and special symbols. The type of a character string is string. A string is surrounded by single or double quotes.",
+                "A character string is a sequence of characters that can be a combination of letters, numbers, and special symbols. The type of a character string is string. A string is surrounded by single or double quotes.",
+                "A character string is a sequence of characters that can be a combination of letters, numbers, and special symbols. The type of a character string is string. A string is surrounded by single or double quotes.",
+                "A character string is a sequence of characters that can be a combination of letters, numbers, and special symbols. The type of a character string is string. A string is surrounded by single or double quotes.",
+                "A character string is a sequence of characters that can be a combination of letters, numbers, and special symbols. The type of a character string is string. A string is surrounded by single or double quotes.",
+                "A character string is a sequence of characters that can be a combination of letters, numbers, and special symbols. The type of a character string is string. A string is surrounded by single or double quotes.",
+                "A character string is a sequence of characters that can be a combination of letters, numbers, and special symbols. The type of a character string is string. A string is surrounded by single or double quotes.",
+                "A character string is a sequence of characters that can be a combination of letters, numbers, and special symbols. The type of a character string is string. A string is surrounded by single or double quotes."
+            ]
+        },
+        {
+            "tag": "stringconcatenation",
+            "patterns": [
+                "How to concatenate two strings?",
+                "How to concatenate strings?",
+                "What is concatenation?",
+                "What is concatenation used for?",
+                "concatenate",
+                "concatenation",
+                "How to merge two strings?",
+                "How to add two strings?",
+                "How to merge strings?",
+                "How to add strings?"
+            ],
+            "responses": [
+                "To concatenate (merge, add) strings, we use the \"+\" character. \"Hello + world\" is \"Hello world\". You have to be careful and put the separator characters. To get \"Hello world\", you must write \"Hello\" + \"world\".",
+                "To concatenate (merge, add) strings, we use the \"+\" character. \"Hello + world\" is \"Hello world\". You have to be careful and put the separator characters. To get \"Hello world\", you must write \"Hello\" + \"world\".",
+                "To concatenate (merge, add) strings, we use the \"+\" character. \"Hello + world\" is \"Hello world\". You have to be careful and put the separator characters. To get \"Hello world\", you must write \"Hello\" + \"world\".",
+                "To concatenate (merge, add) strings, we use the \"+\" character. \"Hello + world\" is \"Hello world\". You have to be careful and put the separator characters. To get \"Hello world\", you must write \"Hello\" + \"world\".",
+                "To concatenate (merge, add) strings, we use the \"+\" character. \"Hello + world\" is \"Hello world\". You have to be careful and put the separator characters. To get \"Hello world\", you must write \"Hello\" + \"world\".",
+                "To concatenate (merge, add) strings, we use the \"+\" character. \"Hello + world\" is \"Hello world\". You have to be careful and put the separator characters. To get \"Hello world\", you must write \"Hello\" + \"world\".",
+                "To concatenate (merge, add) strings, we use the \"+\" character. \"Hello + world\" is \"Hello world\". You have to be careful and put the separator characters. To get \"Hello world\", you must write \"Hello\" + \"world\".",
+                "To concatenate (merge, add) strings, we use the \"+\" character. \"Hello + world\" is \"Hello world\". You have to be careful and put the separator characters. To get \"Hello world\", you must write \"Hello\" + \"world\".",
+                "To concatenate (merge, add) strings, we use the \"+\" character. \"Hello + world\" is \"Hello world\". You have to be careful and put the separator characters. To get \"Hello world\", you must write \"Hello\" + \"world\".",
+                "To concatenate (merge, add) strings, we use the \"+\" character. \"Hello + world\" is \"Hello world\". You have to be careful and put the separator characters. To get \"Hello world\", you must write \"Hello\" + \"world\"."
+            ]
+        },
+        {
+            "tag": "characters",
+            "patterns": [
+                "How to get the size of a string?",
+                "How to get the size of a string?",
+                "size of a string",
+                "size of a character string",
+                "len on a string",
+                "len on a string"
+            ],
+            "responses": [
+                " The size of a string can be obtained with the len function.\" len(s)\" is the length of the string s.",
+                " The size of a string can be obtained with the len function.\" len(s)\" is the length of the string s.",
+                " The size of a string can be obtained with the len function.\" len(s)\" is the length of the string s.",
+                " The size of a string can be obtained with the len function.\" len(s)\" is the length of the string s.",
+                " The size of a string can be obtained with the len function.\" len(s)\" is the length of the string s.",
+                " The size of a string can be obtained with the len function.\" len(s)\" is the length of the string s."
+            ]
+        },
+        {
+            "tag": "list",
+            "patterns": [
+                "Lists are constructed with square brackets ([ and ]) in Python. my_list = [1,2,3] is a list. [] is the empty list. Items in a list can change. Lists are therefore mutable. In a list, the first element is at position 0.",
+                "What is list?",
+                "How to create a list?",
+                "How to define a list?"
+            ],
+            "responses": [
+                "Lists are constructed with square brackets \"[\" and \"]\" in Python \"my_list = [1,2,3]\" is a list. \"[]\" is the empty list. Items in a list can change. Lists are therefore mutable.",
+                "Lists are constructed with square brackets \"[\" and \"]\" in Python \"my_list = [1,2,3]\" is a list. \"[]\" is the empty list. Items in a list can change. Lists are therefore mutable.",
+                "Lists are constructed with square brackets \"[\" and \"]\" in Python \"my_list = [1,2,3]\" is a list. \"[]\" is the empty list. Items in a list can change. Lists are therefore mutable.",
+                "Lists are constructed with square brackets \"[\" and \"]\" in Python \"my_list = [1,2,3]\" is a list. \"[]\" is the empty list. Items in a list can change. Lists are therefore mutable."
+            ]
+        },
+        {
+            "tag": "emptylist",
+            "patterns": [
+                "How to empty a list?",
+                "clear a list",
+                "functions on lists",
+                "manipulate lists",
+                "What is the empty list?",
+                "What is [] ?",
+                "empty list",
+                "[]"
+            ],
+            "responses": [
+                "To empty a list, we use the clear function. \"my_list.clear()\" empties the \"list my_list.\"",
+                "To empty a list, we use the clear function. \"my_list.clear()\" empties the \"list my_list.\"",
+                "To empty a list, we use the clear function. \"my_list.clear()\" empties the \"list my_list.\"",
+                "To empty a list, we use the clear function. \"my_list.clear()\" empties the \"list my_list.\"",
+                "The empty list is represented by \"[]\".",
+                "The empty list is represented by \"[]\".",
+                "The empty list is represented by \"[]\".",
+                "The empty list is represented by \"[]\"."
+            ]
+        },
+        {
+            "tag": "listsize",
+            "patterns": [
+                "How to get the size of a list?",
+                "size of a list",
+                "len on a list",
+                "len function on a list"
+            ],
+            "responses": [
+                "The size of a list can be obtained with the len function. \"len(my_list)\" is the size of the list my_list.",
+                "The size of a list can be obtained with the len function. \"len(my_list)\" is the size of the list my_list.",
+                "The size of a list can be obtained with the len function. \"len(my_list)\" is the size of the list my_list.",
+                "The size of a list can be obtained with the len function. \"len(my_list)\" is the size of the list my_list."
+            ]
+        },
+        {
+            "tag": "creationdelist",
+            "patterns": [
+                "How to create a list with a sequence of numbers?",
+                "How to use range to create a list with a sequence of numbers?"
+            ],
+            "responses": [
+                "You can use the list and range functions to create a list that contains a sequence of numbers. \"list(range(5))\" generates the \"list [0,1,2,3,4]\"",
+                "You can use the list and range functions to create a list that contains a sequence of numbers. \"list(range(5))\" generates the \"list [0,1,2,3,4]\""
+            ]
+        },
+        {
+            "tag": "searchlist",
+            "patterns": [
+                "How do I search for an item in a list?",
+                "find an item in a list",
+                "item in a list",
+                "How to check if an item is in a list?",
+                "How to check if an element belongs to a list?"
+            ],
+            "responses": [
+                "You can use the in operator to test for the existence of an item in a list \"3 in [1,2,3]\" returns True.",
+                "You can use the in operator to test for the existence of an item in a list \"3 in [1,2,3]\" returns True.",
+                "You can use the in operator to test for the existence of an item in a list \"3 in [1,2,3]\" returns True.",
+                "You can use the in operator to test for the existence of an item in a list \"3 in [1,2,3]\" returns True.",
+                "You can use the in operator to test for the existence of an item in a list \"3 in [1,2,3]\" returns True."
+            ]
+        },
+        {
+            "tag": "listitem",
+            "patterns": [
+                "access an item at a specific position in a list",
+                "Extract an item from a specific position in a list",
+                "Manipulate an element of a list",
+                "Extracting an item from a specific position in a list",
+                "How to access an element in a list?",
+                "How to extract an element from a list?",
+                "How to extract a sublist?"
+            ],
+            "responses": [
+                "You can extract the element at position i from a list \"my_list using my_list[i]\". You can also extract sublists. \"my_list[start:end]\" extracts the sublist with the elements from position start to end-1. \"my_list[i:]\" extracts the sublist with the elements from position i until the end.\"My_list[:i]\" extracts the sublist with the elements from the beginning at position \"i-1\"",
+                "You can extract the element at position i from a list \"my_list using my_list[i]\". You can also extract sublists. \"my_list[start:end]\" extracts the sublist with the elements from position start to end-1. \"my_list[i:]\" extracts the sublist with the elements from position i until the end.\"My_list[:i]\" extracts the sublist with the elements from the beginning at position \"i-1\"",
+                "You can extract the element at position i from a list \"my_list using my_list[i]\". You can also extract sublists. \"my_list[start:end]\" extracts the sublist with the elements from position start to end-1. \"my_list[i:]\" extracts the sublist with the elements from position i until the end.\"My_list[:i]\" extracts the sublist with the elements from the beginning at position \"i-1\"",
+                "You can extract the element at position i from a list \"my_list using my_list[i]\". You can also extract sublists. \"my_list[start:end]\" extracts the sublist with the elements from position start to end-1. \"my_list[i:]\" extracts the sublist with the elements from position i until the end.\"My_list[:i]\" extracts the sublist with the elements from the beginning at position \"i-1\"",
+                "You can extract the element at position i from a list \"my_list using my_list[i]\". You can also extract sublists. \"my_list[start:end]\" extracts the sublist with the elements from position start to end-1. \"my_list[i:]\" extracts the sublist with the elements from position i until the end.\"My_list[:i]\" extracts the sublist with the elements from the beginning at position \"i-1\"",
+                "You can extract the element at position i from a list \"my_list using my_list[i]\". You can also extract sublists. \"my_list[start:end]\" extracts the sublist with the elements from position start to end-1. \"my_list[i:]\" extracts the sublist with the elements from position i until the end.\"My_list[:i]\" extracts the sublist with the elements from the beginning at position \"i-1\"",
+                "You can extract the element at position i from a list \"my_list using my_list[i]\". You can also extract sublists. \"my_list[start:end]\" extracts the sublist with the elements from position start to end-1. \"my_list[i:]\" extracts the sublist with the elements from position i until the end.\"My_list[:i]\" extracts the sublist with the elements from the beginning at position \"i-1\""
+            ]
+        },
+        {
+            "tag": "createlist",
+            "patterns": [
+                "How to create a list of lists?",
+                "list of lists"
+            ],
+            "responses": [
+                "list of list is such that the list contains lists \" [[1,2],[],[1,2,6]]\" is a list of lists.",
+                "list of list is such that the list contains lists \" [[1,2],[],[1,2,6]]\" is a list of lists."
+            ]
+        },
+        {
+            "tag": "minimumof alist",
+            "patterns": [
+                "minimum of one list",
+                "How to get the minimum of a list?"
+            ],
+            "responses": [
+                "The min function retrieves the minimum of a list, the smallest element of a list. \"min[0,1,7,2,-1]\" is\" -1.\"",
+                "The min function retrieves the minimum of a list, the smallest element of a list. \"min[0,1,7,2,-1]\" is\" -1.\""
+            ]
+        },
+        {
+            "tag": "maximumof alist",
+            "patterns": [
+                "maximum of one list",
+                "How to get the maximum from a list?"
+            ],
+            "responses": [
+                "The max function retrieves the maximum of a list, the largest element in a list \"max[0,1,7,2,-1] is 7.\"",
+                "The max function retrieves the maximum of a list, the largest element in a list \"max[0,1,7,2,-1] is 7.\""
+            ]
+        },
+        {
+            "tag": "appendlist",
+            "patterns": [
+                "How to add an element in a list?",
+                "add an item to a list",
+                "insert",
+                "append"
+            ],
+            "responses": [
+                "The append function adds an item to the end of a list. If my_list is \"[1,3]\", \"my_list.append(7)\" adds \"7\" to the list. \"my_list becomes [1,3,7]\". The insert function adds an item at position i in a list. If \"my_list is [1,3,7]\", \"my_list.insert(1,17)\" inserts \"17 \"at position \"1\" in the \"list. my_list becomes [1,17,3,7]\".",
+                "The append function adds an item to the end of a list. If my_list is \"[1,3]\", \"my_list.append(7)\" adds \"7\" to the list. \"my_list becomes [1,3,7]\". The insert function adds an item at position i in a list. If \"my_list is [1,3,7]\", \"my_list.insert(1,17)\" inserts \"17 \"at position \"1\" in the \"list. my_list becomes [1,17,3,7]\".",
+                "The append function adds an item to the end of a list. If my_list is \"[1,3]\", \"my_list.append(7)\" adds \"7\" to the list. \"my_list becomes [1,3,7]\". The insert function adds an item at position i in a list. If \"my_list is [1,3,7]\", \"my_list.insert(1,17)\" inserts \"17 \"at position \"1\" in the \"list. my_list becomes [1,17,3,7]\".",
+                "The append function adds an item to the end of a list. If my_list is \"[1,3]\", \"my_list.append(7)\" adds \"7\" to the list. \"my_list becomes [1,3,7]\". The insert function adds an item at position i in a list. If \"my_list is [1,3,7]\", \"my_list.insert(1,17)\" inserts \"17 \"at position \"1\" in the \"list. my_list becomes [1,17,3,7]\"."
+            ]
+        },
+        {
+            "tag": "deletelist",
+            "patterns": [
+                "How do I remove an item from a list?",
+                "remove an item from a list",
+                "How to remove an item from a list?",
+                "remove an item from a list",
+                "pop"
+            ],
+            "responses": [
+                "The del function removes an item from a list. del \"my_list[3]\" deletes the item at position \"3\" in the \"list. my_list.pop()\" allows to remove the element at the last position of the list.",
+                "The del function removes an item from a list. del \"my_list[3]\" deletes the item at position \"3\" in the \"list. my_list.pop()\" allows to remove the element at the last position of the list.",
+                "The del function removes an item from a list. del \"my_list[3]\" deletes the item at position \"3\" in the \"list. my_list.pop()\" allows to remove the element at the last position of the list.",
+                "The del function removes an item from a list. del \"my_list[3]\" deletes the item at position \"3\" in the \"list. my_list.pop()\" allows to remove the element at the last position of the list.",
+                "The del function removes an item from a list. del \"my_list[3]\" deletes the item at position \"3\" in the \"list. my_list.pop()\" allows to remove the element at the last position of the list."
+            ]
+        },
+        {
+            "tag": "elementoccurrences",
+            "patterns": [
+                "How to determine the number of occurrences of an element in a list?",
+                "number of occurrences of an item in a list",
+                "count occurrences of an item in a list"
+            ],
+            "responses": [
+                "The count function returns the number of occurrences of an item in a list. If my_list is \"[1,7,3,1]\", \"my_list.count(1)\" returns \"2\" because \"1\" appears \"2\" times in the list.",
+                "The count function returns the number of occurrences of an item in a list. If my_list is \"[1,7,3,1]\", \"my_list.count(1)\" returns \"2\" because \"1\" appears \"2\" times in the list.",
+                "The count function returns the number of occurrences of an item in a list. If my_list is \"[1,7,3,1]\", \"my_list.count(1)\" returns \"2\" because \"1\" appears \"2\" times in the list."
+            ]
+        },
+        {
+            "tag": "listmore",
+            "patterns": [
+                "How to check if a list is empty?",
+                "How to know if a list is empty?",
+                "How to test if a list is empty?",
+                "check if a list is empty",
+                "check if a list is empty",
+                "find out if a list is empty"
+            ],
+            "responses": [
+                " A list is empty if it has no elements. We can verify that \"len(my_list) == 0\"",
+                " A list is empty if it has no elements. We can verify that \"len(my_list) == 0\"",
+                " A list is empty if it has no elements. We can verify that \"len(my_list) == 0\"",
+                " A list is empty if it has no elements. We can verify that \"len(my_list) == 0\"",
+                " A list is empty if it has no elements. We can verify that \"len(my_list) == 0\"",
+                " A list is empty if it has no elements. We can verify that \"len(my_list) == 0\""
+            ]
+        },
+        {
+            "tag": "splitlist",
+            "patterns": [
+                "How to split a string into a list?",
+                "How to split a string into a list?",
+                "How to convert a string to a list?",
+                "How to convert a string to a list?",
+                "What is split?",
+                "split"
+            ],
+            "responses": [
+                "The split function splits a character string into several elements called fields based on a separator. If s is the string Hello: Test: Goodbye, s.split(\":\") creates the list \"[ \"Hello\", \"Test\", \"Goodbye\"]\".",
+                "The split function splits a character string into several elements called fields based on a separator. If s is the string Hello: Test: Goodbye, s.split(\":\") creates the list \"[ \"Hello\", \"Test\", \"Goodbye\"]\".",
+                "The split function splits a character string into several elements called fields based on a separator. If s is the string Hello: Test: Goodbye, s.split(\":\") creates the list \"[ \"Hello\", \"Test\", \"Goodbye\"]\".",
+                "The split function splits a character string into several elements called fields based on a separator. If s is the string Hello: Test: Goodbye, s.split(\":\") creates the list \"[ \"Hello\", \"Test\", \"Goodbye\"]\".",
+                "The split function splits a character string into several elements called fields based on a separator. If s is the string Hello: Test: Goodbye, s.split(\":\") creates the list \"[ \"Hello\", \"Test\", \"Goodbye\"]\".",
+                "The split function splits a character string into several elements called fields based on a separator. If s is the string Hello: Test: Goodbye, s.split(\":\") creates the list \"[ \"Hello\", \"Test\", \"Goodbye\"]\"."
+            ]
+        },
+        {
+            "tag": "itemposition",
+            "patterns": [
+                "How to get the position of an element in a list?",
+                "position of an item in a list",
+                "item position"
+            ],
+            "responses": [
+                " The index function is used to find the index of the element of a list equal to a given value. With \" L = [20,8,9,18,9,15,14]\" ,\" L.index(9) is 2\".",
+                " The index function is used to find the index of the element of a list equal to a given value. With \" L = [20,8,9,18,9,15,14]\" ,\" L.index(9) is 2\".",
+                " The index function is used to find the index of the element of a list equal to a given value. With \" L = [20,8,9,18,9,15,14]\" ,\" L.index(9) is 2\"."
+            ]
+        },
+        {
+            "tag": "tuple",
+            "patterns": [
+                "What is a tuple?",
+                "What is a tuple?",
+                "tuple",
+                "How to define a tuple?",
+                "How to create a tuple?"
+            ],
+            "responses": [
+                "tuple is an immutable ordered collection. The order matters and the value of the elements of a tuple cannot change. We create a tuple using parentheses. \"(1,2,3,4)\" is a tuple. In a tuple, the first element is at position \"0\".",
+                "tuple is an immutable ordered collection. The order matters and the value of the elements of a tuple cannot change. We create a tuple using parentheses. \"(1,2,3,4)\" is a tuple. In a tuple, the first element is at position \"0\".",
+                "tuple is an immutable ordered collection. The order matters and the value of the elements of a tuple cannot change. We create a tuple using parentheses. \"(1,2,3,4)\" is a tuple. In a tuple, the first element is at position \"0\".",
+                "tuple is an immutable ordered collection. The order matters and the value of the elements of a tuple cannot change. We create a tuple using parentheses. \"(1,2,3,4)\" is a tuple. In a tuple, the first element is at position \"0\".",
+                "tuple is an immutable ordered collection. The order matters and the value of the elements of a tuple cannot change. We create a tuple using parentheses. \"(1,2,3,4)\" is a tuple. In a tuple, the first element is at position \"0\"."
+            ]
+        },
+        {
+            "tag": "differencestuplesandlists",
+            "patterns": [
+                "Are tuples more efficient than lists in Python?",
+                "What are the differences between tuples and lists?",
+                "differences tuples and lists",
+                "differences tuples lists"
+            ],
+            "responses": [
+                " Tuples and lists are used in different situations. If we want to create a list of names, we will use a list. list_name is \"[\"Ibrahima\", \"Balla\"]\". If we want to describe a person, we can use a tuple where the first element is the name and the second is the age.\" tuple_person is (\"Ibrahima\", \"10\")\".",
+                " Tuples and lists are used in different situations. If we want to create a list of names, we will use a list. list_name is \"[\"Ibrahima\", \"Balla\"]\". If we want to describe a person, we can use a tuple where the first element is the name and the second is the age.\" tuple_person is (\"Ibrahima\", \"10\")\".",
+                " Tuples and lists are used in different situations. If we want to create a list of names, we will use a list. list_name is \"[\"Ibrahima\", \"Balla\"]\". If we want to describe a person, we can use a tuple where the first element is the name and the second is the age.\" tuple_person is (\"Ibrahima\", \"10\")\".",
+                " Tuples and lists are used in different situations. If we want to create a list of names, we will use a list. list_name is \"[\"Ibrahima\", \"Balla\"]\". If we want to describe a person, we can use a tuple where the first element is the name and the second is the age.\" tuple_person is (\"Ibrahima\", \"10\")\"."
+            ]
+        },
+        {
+            "tag": "mutable",
+            "patterns": [
+                " What is mutable?",
+                "mutable",
+                "What does mutable mean?"
+            ],
+            "responses": [
+                "A list can be modified.It is mutable.",
+                "A list can be modified.It is mutable.",
+                "A list can be modified.It is mutable."
+            ]
+        },
+        {
+            "tag": "immutable",
+            "patterns": [
+                "What is immutable?",
+                "What does immutable mean?",
+                "immutable"
+            ],
+            "responses": [
+                "A tuple cannot be modified. It is immutable.",
+                "A tuple cannot be modified. It is immutable.",
+                "A tuple cannot be modified. It is immutable."
+            ]
+        },
+        {
+            "tag": "lenforuntuple",
+            "patterns": [
+                "How to count the number of elements of a tuple?",
+                "number of elements in a tuple",
+                "len for a tuple"
+            ],
+            "responses": [
+                "The size of a tuple can be obtained with the len function. \"len(t)\" is the size of the tuple t.",
+                "The size of a tuple can be obtained with the len function. \"len(t)\" is the size of the tuple t.",
+                "The size of a tuple can be obtained with the len function. \"len(t)\" is the size of the tuple t."
+            ]
+        },
+        {
+            "tag": "elementintuple",
+            "patterns": [
+                "How to access an element in a tuple?",
+                "element in a tuple"
+            ],
+            "responses": [
+                "The element at position i in a tuple t is \"t[i]\". The first element of a tuple is position\" 0\".",
+                "The element at position i in a tuple t is \"t[i]\". The first element of a tuple is position\" 0\"."
+            ]
+        },
+        {
+            "tag": "documentationpython",
+            "patterns": [
+                "How to get Python documentation?",
+                "Where can I get Python documentation?",
+                "Which site to consult to learn Python?"
+            ],
+            "responses": [
+                "The official Python documentation is available here \"https://docs.python.org/\". To learn a programming language, it is important to practice through tutorials and exercises, and even to program your own project.",
+                "The official Python documentation is available here \"https://docs.python.org/\". To learn a programming language, it is important to practice through tutorials and exercises, and even to program your own project.",
+                "The official Python documentation is available here \"https://docs.python.org/\". To learn a programming language, it is important to practice through tutorials and exercises, and even to program your own project."
+            ]
+        },
+        {
+            "tag": "programmingforbeginners",
+            "patterns": [
+                "What is the best programming language for beginners?",
+                "Is there a best programming language for beginners?",
+                "Is Python suitable as a first programming language?"
+            ],
+            "responses": [
+                " There are many programming languages. Nowadays, Python seems to be the most affordable language for beginners. It is used in computer science but also in economics, humanities etc.",
+                " There are many programming languages. Nowadays, Python seems to be the most affordable language for beginners. It is used in computer science but also in economics, humanities etc.",
+                " There are many programming languages. Nowadays, Python seems to be the most affordable language for beginners. It is used in computer science but also in economics, humanities etc."
+            ]
+        },
+        {
+            "tag": "usespython",
+            "patterns": [
+                " How many people use Python?",
+                "Is Python popular?",
+                "Which projects are developed in Python?",
+                "What known projects are developed in Python?",
+                "Who uses Python?",
+                "Which companies use Python?"
+            ],
+            "responses": [
+                "The biggest companies like Google and Facebook use Python every day. There are many Python users around the world. Python is used for coding different software, from web to data science. You can also view the list of projects that use Python here\" https://www.python.org/about/success\"",
+                "The biggest companies like Google and Facebook use Python every day. There are many Python users around the world. Python is used for coding different software, from web to data science. You can also view the list of projects that use Python here\" https://www.python.org/about/success\"",
+                "The biggest companies like Google and Facebook use Python every day. There are many Python users around the world. Python is used for coding different software, from web to data science. You can also view the list of projects that use Python here\" https://www.python.org/about/success\"",
+                "The biggest companies like Google and Facebook use Python every day. There are many Python users around the world. Python is used for coding different software, from web to data science. You can also view the list of projects that use Python here\" https://www.python.org/about/success\"",
+                "The biggest companies like Google and Facebook use Python every day. There are many Python users around the world. Python is used for coding different software, from web to data science. You can also view the list of projects that use Python here\" https://www.python.org/about/success\"",
+                "The biggest companies like Google and Facebook use Python every day. There are many Python users around the world. Python is used for coding different software, from web to data science. You can also view the list of projects that use Python here\" https://www.python.org/about/success\""
+            ]
+        },
+        {
+            "tag": "futuredevelopments",
+            "patterns": [
+                "What are the expected novelties?",
+                "What new developments are expected?",
+                "What will be the new features?",
+                "What are the future developments?",
+                "future",
+                "The evolution of python"
+            ],
+            "responses": [
+                "To learn more, you can watch the Python Enhancement Proposals (PEPs) at \"https://www.python.org/dev/peps.\"",
+                "To learn more, you can watch the Python Enhancement Proposals (PEPs) at \"https://www.python.org/dev/peps.\"",
+                "To learn more, you can watch the Python Enhancement Proposals (PEPs) at \"https://www.python.org/dev/peps.\"",
+                "To learn more, you can watch the Python Enhancement Proposals (PEPs) at \"https://www.python.org/dev/peps.\"",
+                "To learn more, you can watch the Python Enhancement Proposals (PEPs) at \"https://www.python.org/dev/peps.\"",
+                "To learn more, you can watch the Python Enhancement Proposals (PEPs) at \"https://www.python.org/dev/peps.\""
+            ]
+        },
+        {
+            "tag": "controlflow",
+            "patterns": [
+                "What are control flow statements?",
+                "control flow",
+                "What are the control statements?",
+                "control statements"
+            ],
+            "responses": [
+                " Test statements such as conditionals and for and while loops are control statements.",
+                " Test statements such as conditionals and for and while loops are control statements.",
+                " Test statements such as conditionals and for and while loops are control statements.",
+                " Test statements such as conditionals and for and while loops are control statements."
+            ]
+        },
+        {
+            "tag": "indent",
+            "patterns": [
+                "What is an indent?",
+                "indent"
+            ],
+            "responses": [
+                "In Python, it is mandatory to indent code blocks. To indent means to offset a few spaces at the beginning of the line of code. The blocks are determined by the indents.",
+                "In Python, it is mandatory to indent code blocks. To indent means to offset a few spaces at the beginning of the line of code. The blocks are determined by the indents."
+            ]
+        },
+        {
+            "tag": "for loop",
+            "patterns": [
+                "What is for?",
+                "When do we use for?",
+                "When do you use a for loop?",
+                "What is a for loop?",
+                "What is the for loop?",
+                "for loop",
+                "for"
+            ],
+            "responses": [
+                "A for loop is a type of loop. It allows you to repeat instructions when you know how many times in advance. The loop is repeated as long as the loop condition is true. The syntax of a for loop is for condition: statements.",
+                "A for loop is a type of loop. It allows you to repeat instructions when you know how many times in advance. The loop is repeated as long as the loop condition is true. The syntax of a for loop is for condition: statements.",
+                "A for loop is a type of loop. It allows you to repeat instructions when you know how many times in advance. The loop is repeated as long as the loop condition is true. The syntax of a for loop is for condition: statements.",
+                "A for loop is a type of loop. It allows you to repeat instructions when you know how many times in advance. The loop is repeated as long as the loop condition is true. The syntax of a for loop is for condition: statements.",
+                "A for loop is a type of loop. It allows you to repeat instructions when you know how many times in advance. The loop is repeated as long as the loop condition is true. The syntax of a for loop is for condition: statements.",
+                "A for loop is a type of loop. It allows you to repeat instructions when you know how many times in advance. The loop is repeated as long as the loop condition is true. The syntax of a for loop is for condition: statements.",
+                "A for loop is a type of loop. It allows you to repeat instructions when you know how many times in advance. The loop is repeated as long as the loop condition is true. The syntax of a for loop is for condition: statements."
+            ]
+        },
+        {
+            "tag": "loop",
+            "patterns": [
+                "What is a loop?",
+                "How to make a loop?",
+                "repeat instructions",
+                "How to repeat instructions?",
+                "loop"
+            ],
+            "responses": [
+                "loop is a program construct that allows statements to be repeated. There are for loops and while loops. You use a for loop when you know in advance how many times to execute a loop. We use a while loop when we don't know in advance how many times we have to execute a loop.",
+                "loop is a program construct that allows statements to be repeated. There are for loops and while loops. You use a for loop when you know in advance how many times to execute a loop. We use a while loop when we don't know in advance how many times we have to execute a loop.",
+                "loop is a program construct that allows statements to be repeated. There are for loops and while loops. You use a for loop when you know in advance how many times to execute a loop. We use a while loop when we don't know in advance how many times we have to execute a loop.",
+                "loop is a program construct that allows statements to be repeated. There are for loops and while loops. You use a for loop when you know in advance how many times to execute a loop. We use a while loop when we don't know in advance how many times we have to execute a loop.",
+                "loop is a program construct that allows statements to be repeated. There are for loops and while loops. You use a for loop when you know in advance how many times to execute a loop. We use a while loop when we don't know in advance how many times we have to execute a loop."
+            ]
+        },
+        {
+            "tag": "loopwhile",
+            "patterns": [
+                "When do we use while?",
+                "What is while?",
+                "When do you use a while loop?",
+                "What is a while loop?",
+                "What is the while loop?",
+                "while loop",
+                "while"
+            ],
+            "responses": [
+                "A while loop is a type of loop. It allows you to repeat instructions when you don't know how many times in advance. The loop is repeated as long as the loop condition is true. The syntax of a while loop is while condition: statements.",
+                "A while loop is a type of loop. It allows you to repeat instructions when you don't know how many times in advance. The loop is repeated as long as the loop condition is true. The syntax of a while loop is while condition: statements.",
+                "A while loop is a type of loop. It allows you to repeat instructions when you don't know how many times in advance. The loop is repeated as long as the loop condition is true. The syntax of a while loop is while condition: statements.",
+                "A while loop is a type of loop. It allows you to repeat instructions when you don't know how many times in advance. The loop is repeated as long as the loop condition is true. The syntax of a while loop is while condition: statements.",
+                "A while loop is a type of loop. It allows you to repeat instructions when you don't know how many times in advance. The loop is repeated as long as the loop condition is true. The syntax of a while loop is while condition: statements.",
+                "A while loop is a type of loop. It allows you to repeat instructions when you don't know how many times in advance. The loop is repeated as long as the loop condition is true. The syntax of a while loop is while condition: statements.",
+                "A while loop is a type of loop. It allows you to repeat instructions when you don't know how many times in advance. The loop is repeated as long as the loop condition is true. The syntax of a while loop is while condition: statements."
+            ]
+        },
+        {
+            "tag": "infiniteloop",
+            "patterns": [
+                "What is an infinite loop?",
+                "infinite loop"
+            ],
+            "responses": [
+                "A while loop is a type of loop. It allows you to repeat instructions when you don't know how many times in advance. The loop is repeated as long as the loop condition is true. The syntax of a while loop is while condition: statements.",
+                "A while loop is a type of loop. It allows you to repeat instructions when you don't know how many times in advance. The loop is repeated as long as the loop condition is true. The syntax of a while loop is while condition: statements."
+            ]
+        },
+        {
+            "tag": "range",
+            "patterns": [
+                "What is the range function for?",
+                "What is range for?",
+                "What is range?",
+                "How to use range?"
+            ],
+            "responses": [
+                " range is a Python function that generates a sequence of numbers. \"range([start], [stop],[, step]) generates numbers from start to end (excluded) with the given step. The start and step parameters are optional. \"range(10)\" generates numbers from \"0 to 9\". \"range(5,10)\" generates numbers from \"5 to 9\". \"range(5,10,2)\" generates numbers \"5\" ,\" 7\", and \"9\".",
+                " range is a Python function that generates a sequence of numbers. \"range([start], [stop],[, step]) generates numbers from start to end (excluded) with the given step. The start and step parameters are optional. \"range(10)\" generates numbers from \"0 to 9\". \"range(5,10)\" generates numbers from \"5 to 9\". \"range(5,10,2)\" generates numbers \"5\" ,\" 7\", and \"9\".",
+                " range is a Python function that generates a sequence of numbers. \"range([start], [stop],[, step]) generates numbers from start to end (excluded) with the given step. The start and step parameters are optional. \"range(10)\" generates numbers from \"0 to 9\". \"range(5,10)\" generates numbers from \"5 to 9\". \"range(5,10,2)\" generates numbers \"5\" ,\" 7\", and \"9\".",
+                " range is a Python function that generates a sequence of numbers. \"range([start], [stop],[, step]) generates numbers from start to end (excluded) with the given step. The start and step parameters are optional. \"range(10)\" generates numbers from \"0 to 9\". \"range(5,10)\" generates numbers from \"5 to 9\". \"range(5,10,2)\" generates numbers \"5\" ,\" 7\", and \"9\"."
+            ]
+        },
+        {
+            "tag": "iterate through items in a list",
+            "patterns": [
+                "How to loop through elements of a list?",
+                "browse a list",
+                "iterate through the elements of a list"
+            ],
+            "responses": [
+                "\"for i in my_list\" allows to browse the elements of a list",
+                "\"for i in my_list\" allows to browse the elements of a list",
+                "\"for i in my_list\" allows to browse the elements of a list"
+            ]
+        },
+        {
+            "tag": "namepython",
+            "patterns": [
+                "Where does the name Python come from?",
+                "Python language name",
+                "Python name"
+            ],
+            "responses": [
+                "The name of the programming language Python comes from the name of a troupe of comedians made famous, in the \"1970s\", thanks to the English television series Monty Python's Flying Circus.",
+                "The name of the programming language Python comes from the name of a troupe of comedians made famous, in the \"1970s\", thanks to the English television series Monty Python's Flying Circus.",
+                "The name of the programming language Python comes from the name of a troupe of comedians made famous, in the \"1970s\", thanks to the English television series Monty Python's Flying Circus."
+            ]
+        },
+        {
+            "tag": "developedpython",
+            "patterns": [
+                "Who created Python?",
+                "Who developed Python?",
+                "Who is the developer of Python?",
+                "In what year python develped?"
+            ],
+            "responses": [
+                " Guido van Rossum, a Dutchman, developed Python in \"2011\".",
+                " Guido van Rossum, a Dutchman, developed Python in \"2011\".",
+                " Guido van Rossum, a Dutchman, developed Python in \"2011\".",
+                " Guido van Rossum, a Dutchman, developed Python in \"2011\"."
+            ]
+        },
+        {
+            "tag": "casesensitivity",
+            "patterns": [
+                "What iscase sensitive?",
+                "What is case sensitivity?",
+                "case sensitivity"
+            ],
+            "responses": [
+                "Anything that is case sensitive distinguishes between upper and lower case letters. \"Text2\" and \"text2\" are different. Python is a case sensitive language.",
+                "Anything that is case sensitive distinguishes between upper and lower case letters. \"Text2\" and \"text2\" are different. Python is a case sensitive language.",
+                "Anything that is case sensitive distinguishes between upper and lower case letters. \"Text2\" and \"text2\" are different. Python is a case sensitive language."
+            ]
+        },
+        {
+            "tag": "googlecolab",
+            "patterns": [
+                "What is Google Colab?",
+                "Google Colab",
+                "Colab"
+            ],
+            "responses": [
+                "Google Colab \"https://colab.google.com\" allows you to write and run Python code through the browser. You don't need to install Python and an editor on your computer. It is used for professional applications of artificial intelligence, but also in education.",
+                "Google Colab \"https://colab.google.com\" allows you to write and run Python code through the browser. You don't need to install Python and an editor on your computer. It is used for professional applications of artificial intelligence, but also in education.",
+                "Google Colab \"https://colab.google.com\" allows you to write and run Python code through the browser. You don't need to install Python and an editor on your computer. It is used for professional applications of artificial intelligence, but also in education."
+            ]
+        }
+    ]
+}
